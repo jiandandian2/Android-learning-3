@@ -22,11 +22,11 @@ class StudyFragment: Fragment(R.layout.fragment_study) {
 
     }
 
-    inner class StudyAdapter : RecyclerView.Adapter<StudyAdapter.StudyViewHolder>() {
+    inner class StudyAdapter : RecyclerView.Adapter<StudyViewHolder>() {
         override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): StudyViewHolder {
-            val view =
-                LayoutInflater.from(context).inflate(R.layout.fragment_study, parent, false)
-            return StudyViewHolder(view)
+            val itemView =
+                LayoutInflater.from(context).inflate(R.layout.item_fragment_study, parent, false)
+            return StudyViewHolder(itemView)
         }
 
         override fun onBindViewHolder(holder: StudyViewHolder, position: Int) {
@@ -40,9 +40,11 @@ class StudyFragment: Fragment(R.layout.fragment_study) {
             return 20
         }
 
-        inner class StudyViewHolder(view: View) : RecyclerView.ViewHolder(view) {
-        }
 
+
+    }
+
+    class StudyViewHolder(view: View) : RecyclerView.ViewHolder(view) {
     }
 }
 

@@ -18,7 +18,7 @@
 
     <item
         android:id="@+id/navigation_study"
-        android:title="Study"
+        android:title="@string/title_study"
         android:icon="@drawable/icon_menu"
         android:iconTint="@color/black"/>
 
