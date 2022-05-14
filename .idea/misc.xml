@@ -7,6 +7,10 @@
         <entry key="..\:/github_code/Android-learning-3/app/src/main/res/layout/fragment_home.xml" value="0.36666666666666664" />
         <entry key="..\:/github_code/Android-learning-3/app/src/main/res/layout/fragment_study.xml" value="0.25" />
         <entry key="..\:/github_code/Android-learning-3/app/src/main/res/layout/item_fragment_study.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.19610507246376813" />
+        <entry key="app/src/main/res/layout/fragment_study.xml" value="0.2664328312528306" />
+        <entry key="app/src/main/res/layout/item_fragment_study.xml" value="0.15520833333333334" />
+        <entry key="app/src/main/res/menu/bottom_nav_menu.xml" value="0.22037037037037038" />
       </map>
     </option>
   </component>
